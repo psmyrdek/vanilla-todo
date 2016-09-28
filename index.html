@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo z PoznajProgramowanie.pl</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Dodany plik ze stylami -->
+</head>
+
+<body>
+
+    <div class="container container--with-border">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-md-offset-2">
+
+                <section class="todo-app">
+
+                    <!-- Add todo panel -->
+                    <div class="panel panel-default add-todo-panel">
+                        <div class="panel-heading">
+                            Dodaj nowe zadanie
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="todo-input" placeholder="Dodać do zakładek PoznajProgramowanie.pl...">
+                                </div>
+                                <div class="col-sm-2">
+                                    <button type="submit" class="btn btn-block btn-success" id="add-todo-btn" onclick="TodoView.addTodo()">
+                                        Dodaj
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Todos list -->
+                    <div id="todo-list-root">
+                        <!-- Lista będzie renderowana tutaj -->
+                    </div>
+
+                    <!-- Filters panel -->
+                    <div class="panel panel-default filters-panel">
+                        <div class="panel-body">
+                            <button type="submit" class="btn btn-primary" id="filter-all-btn">Wszystkie</button>
+                            <button type="submit" class="btn btn-default" id="filter-completed-btn">Gotowe</button>
+                            <button type="submit" class="btn btn-default" id="filter-not-completed-btn">Niegotowe</button>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="app/Todo.js"></script>
+    <script src="app/TodoView.js"></script>
+    <script src="app/TodoService.js"></script>
+    <script src="app/TodoRenderer.js"></script>
+
+</body>
+
+</html>
