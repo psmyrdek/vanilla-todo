@@ -2,6 +2,8 @@
 
 Todo app created in pure JS. Prepared for tutorial which can be found on PoznajProgramowanie.pl (blog about software development)
 
+http://poznajprogramowanie.pl/twoja-pierwsza-aplikacja-w-jezyku-javascript/
+
 ## Why?
 
 To learn more about pros and cons of using vanilla JS in your apps. Before even touching Ember, Angular, React or any other frameworks - just learn the basics. No npms, grunts, gulps, webpacks, live-servers, hot or cold reloading - amazing tools but not for "JavaScript 101" class.
