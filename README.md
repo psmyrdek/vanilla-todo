@@ -15,3 +15,11 @@ After more than three years of building JS apps I've thought about back to the b
 * Simple Todo model
 * Three components: TodoView (event listeners), TodoService (app logic) and TodoRenderer (UI updates)
 * Basic HTML layout based on Bootstrap
+
+## What's next
+
+Explore my [js-patterns](https://github.com/psmyrdek/js-patterns) repository to learn about following patterns:
+
+* strategy
+* factory
+* observer
